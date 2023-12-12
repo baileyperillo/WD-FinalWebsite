@@ -1,0 +1,222 @@
+chtml {  /*content is not fully showing on the page, only half*/
+  height: 100%;
+  width: 100%;
+   margin: 0px;
+  
+}
+/* home page*/
+body{
+ /* background-image: url("pg-background.avif"); */
+  background-color: #FAE7EF;
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  
+}
+
+/*
+STYLE: 
+<> title: use fun font, have some acknowledge on what 
+<> background: nice color, maybe pastel pink
+<> font: nice font, maybe roboto, try to use downloaded
+pictures: same size, position elements/flex, put them side by side, 2 per row/ fill to fit, maybe borders
+-extra pictures & gifs
+<> captions: fixed to image, make possible link or window? to go to product page, make clickable and pop out when hover?
+
+<> nav bar: nice color, maybe purple, maybe borders w/ shadowbox, maybe rounded corners, if horizontal go across page centered, if vertical press button to toggle nav bar
+
+<> buttons: nice color, maybe purple, maybe borders, have acknowledgement when pressed/hovered? bigger font?
+
+<> products: same size, have good info, use Javascript to display on product page,
+
+<> footer: add
+
+
+HOMEPAGE:
+products: section into two cat., think about extra later
+<> categories: nice color, maybe white, maybe borders, maybe rounded corners & borders, holds products, shows 3 next to each other, maybe hover effects, maybe clickable pictures, margin/space between
+<> product info: nice color, maybe white, maybe borders, links to product page,  maybe borders, maybe shadowbox & enlarge, aligned with image, list 
+
+
+CONTACT PAGE:
+<> Titles: big/semi big, maybe diff font, <strong> tag
+<> info: <p> tag, maybe 
+<> image/ gifs: same size, margins,
+<> input box: dfferent sizes based on input, put under each other, placeholder, dif font space between
+<submit button: make it work??? 
+
+PRODUCT PAGE:
+<> use javascript to keep data and display it?
+<> info: dif tags, <strong> tag for title
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.bar {*/
+  /* navbar-  consider flex*/ 
+  /*float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 60px;
+  margin: 20px;
+
+  font-size: 17px;
+  background-color: #694ead;
+  position: static;
+  display: grid;
+  justify-content: stretch;
+
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;  
+}
+li{
+  display: inline;
+  padding: 10px;
+}
+
+#featured{ *//*selections - make into columns with grid*/
+  /*display: grid;
+  grid-template-columns:(auto auto auto);
+  position: static;
+  margin: 50px;
+  
+  
+}
+
+#featured > div {
+  text-align: center;
+  padding: 20px;
+  border: 3px solid green;
+}
+.home{ *//* photos*/
+  /*height: auto;
+  width: 45px;
+  margin: 5%;
+  position: static;
+  left: 50px;
+
+}
+*/
+
+/* about/contact page - changes parts in the ordering page size*/ 
+/*.about {
+  background-color: rgb(250,	231,	239);
+}
+.contact {
+padding: 20px;
+  
+}
+@font-face{
+    font-family: "lucy-said-ok-font";
+    src: url("https://www.fontspace.com/lucy-said-ok-font-f68601");
+}
+
+.top {
+  font-family: 'Times New Roman', Times, serif;
+  font-family: lucy-said-ok-font;*/ /*not working,must look up*/
+ /* color: #2986cc;
+}
+.contact input {
+      display: flex;
+      flex-direction: columns;
+      gap: 20px;
+}*/
+
+/* product page*/
+/*.pr {*/ /*photos*/
+ /* height:auto;
+  width: 10%;
+margin-left: 10%;
+  
+}
+
+details h1{
+  font-size: 35px;
+
+}
+details h2{
+  font-size: 30px;
+
+}
+#m1 {
+  margin-top: 5%;
+}
+
+/*
+.container {
+  width: 100%;
+  min-height: 100%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product {
+  width: 90%;
+  min-width: 750px;
+  display: flex;
+}
+.gallery {
+  flex-basis: 47%;
+  /*transform: scale(1.08);
+  box-shadow: -10px 5px 10px rgba(0,0,0.1);*/
+    /*
+}
+.gallery img {
+  width: 100%;
+  display: block;
+  padding-top: 100px;
+}
+.details{
+  flex-basis: 53%;
+  background-color: black;
+  padding: 40px;
+  padding-left: 60px;
+  font-size: 20px;
+  font-weight: 500;
+  
+}*/
+
+
+
+/* order page*/
+/*.recipt {
+  border: 2px solid black;
+  width: 300px;
+  padding: 50px;
+  margin: 20px;
+  background-color: #f2f2f2;
+  display: flex;
+  
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: space-between;
+}*/
+

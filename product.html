@@ -1,0 +1,277 @@
+<header>
+  <title>product</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</header>
+<body>
+
+<h1 align='center' class= 'top'> Fun Cringe</h1>
+<h2 align='center' class='top'> Product</h2>
+  <div class = 'bar'>
+    
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="contact.html">About/ Contact</a></li>
+      <li><a href="product.html"<>Products</a>/li>
+      <li><a href="ordering.html">Shopping cart</a></li>
+    </ul>
+  </div>
+</section>
+
+  
+  <script src = "script.js"></script>
+  <div id= "b1"  style="display:block;">
+    <img class = 'pr' src = "Unhinged.jpg">
+    <div class = 'det'>
+      <h2>Title: <strong>Unhinged</strong></h2>
+      <h4>author: Vera Valentine</h4>
+      <h4>pages: 71</h4>
+      <h4>publish: 7/10/2023</h4>
+      <h4>rating: *****</h4>
+      <h4>cost: $8.99</h4>
+    </div>
+    <button onclick='countPr(order1)'>cart</button><!--add to cart, notif-->
+   </div>
+
+  <div id = "b2"  style="display:block;">
+    <img class = 'pr' src = "theSwamp.jpg">
+    <div class = 'det'>
+      <h2>Title: <strong>Get In My Swamp: An Ogre Love Story</strong></h2>
+      <h4>author: G.M. Fairy</h4>
+      <h4>pages: 194</h4>
+      <h4>published date: 9/28/2023</h4>
+      <h4>size:</h4>
+      <h4>ratings: *****</h4> <!--avg rating/comments-->
+      <h4>links:</h4> <!-- additional links-->
+      <h3> price: $10.70</h3>
+    </div>
+    <button onclick='countPr(order2)'>cart</button><!--add to cart, notif-->
+   </div>
+
+
+  
+  <div id="b3"  style="display:block;">
+    <img class = 'pr' src = "LoveHypothesis.jpg">
+    <div class = 'det'>
+      <h2>Title: <strong>Love Hypothesis</strong></h2>
+      <h4>author: Ali Hazelwood</h4>
+      <h4>pages: 383</h4>
+      <h4>published date: 9/14/2021</h4>
+      <h4>size:</h4>
+      <h4>ratings: ***</h4> <!--avg rating/comments-->
+      <h4>links: </h4> <!-- additional links-->
+      <h3> price: $10.70</h3>
+    </div>
+    <button onclick='countPr(order1)'>cart</button><!--add to cart, notif-->
+   </div>
+
+
+  <div id = "m1"  style="display:block;">
+    <img class = 'pr' src = "BeautifulDisasters.jpg">
+    <div class = 'det'>
+      <h2>Title: <strong>Beautiful Disasters</strong></h2>
+      <h4>cast:</h4>
+      <h4></h4>
+      <h4>release date:</h4>
+      <h4>duration:</h4>
+      <h4>ratings:</h4> <!--avg rating/comments-->
+      <h4>links:</h4> <!-- additional links-->
+      <h3> price: $20.70</h3>
+    </div>
+    <button onclick='countPr(order1)'>cart</button><!--add to cart, notif-->
+   </div>
+
+  <div id = "m2" style="display:block;">
+    <img class = 'pr' src = "theRoom.jpg">
+    <div class = 'det'>
+      <h2>Title: <strong>The Room</strong></h2>
+      <h4>cast:</h4>
+      <h4></h4>
+      <h4>release date:</h4>
+      <h4>duration:</h4>
+      <h4>ratings:</h4> <!--avg rating/comments-->
+      <h4>links:</h4> <!-- additional links-->
+      <h3> price: $20.70</h3>
+    </div>
+    <button onclick='countPr(order1)'>cart</button><!--add to cart, notif-->
+   </div>
+
+  <div id = "m3" style="display:block;">
+    <img class = 'pr' src = "Kissing.jpg">
+    <div class = 'det'>
+      <h2>Title: <strong>Kissing Booth</strong></h2>
+      <h4>cast: </h4>
+      <h4></h4>
+      <h4>release date:</h4>
+      <h4>duration:</h4>
+      <h4>ratings:</h4> <!--avg rating/comments-->
+      <h4>links:</h4> <!-- additional links-->
+      <h3> price: $20.70</h3>
+    </div>
+    <button onclick='countPr(order1)'>cart</button><!--add to cart, notif-->
+   </div>
+
+  <script> //script isn't used
+    
+  
+    function displayb1() {
+      var a = document.getElementById("b1");
+      var b = document.getElementById("b2");
+      var c = document.getElementById("b3");
+      var d = document.getElementById("m1");
+      var e = document.getElementById("m2");
+      var f = document.getElementById("m3");
+      if (a.style.display === "none") {
+        a.style.display = "block";
+        b.style.display = "none";
+        c.style.display = "none";
+        d.style.display = "none";
+        e.style.display = "none";
+        f.style.display = "none";
+        } else {
+          a.style.display = "none";
+        }
+
+    }
+    //let bb1 = document.getElementById("b1");
+     //greenBtn.addEventListener("click", function() {
+        
+     //});       
+
+    function displayb2() {
+      var a = document.getElementById("b1");
+      var b = document.getElementById("b2");
+      var c = document.getElementById("b3");
+      var d = document.getElementById("m1");
+      var e = document.getElementById("m2");
+      var f = document.getElementById("m3");
+      if (a.style.display === "none") {
+        a.style.display = "none";
+        b.style.display = "block";
+        c.style.display = "none";
+        d.style.display = "none";
+        e.style.display = "none";
+        f.style.display = "none";
+      } else {
+          b.style.display = "none";
+      }
+
+    }
+
+    function displayb3() {
+      var a = document.getElementById("b1");
+      var b = document.getElementById("b2");
+      var c = document.getElementById("b3");
+      var d = document.getElementById("m1");
+      var e = document.getElementById("m2");
+      var f = document.getElementById("m3");
+        if (c.style.display === "none") {
+            a.style.display = "none";
+            b.style.display = "none";
+            c.style.display = "block";
+            d.style.display = "none";
+            e.style.display = "none";
+            f.style.display = "none";
+
+          } else {
+            c.style.display = "none";
+          }
+
+    }
+
+    function displaym1() {
+      var a = document.getElementById("b1");
+      var b = document.getElementById("b2");
+      var c = document.getElementById("b3");
+      var d = document.getElementById("m1");
+      var e = document.getElementById("m2");
+      var f = document.getElementById("m3");
+        if (c.style.display === "none") {
+            a.style.display = "none";
+            b.style.display = "none";
+            c.style.display = "none";
+            d.style.display = "block";
+            e.style.display = "none";
+            f.style.display = "none";
+
+          } else {
+            d.style.display = "none";
+          }
+
+    }
+
+    function displaym2() {
+      var a = document.getElementById("b1");
+      var b = document.getElementById("b2");
+      var c = document.getElementById("b3");
+      var d = document.getElementById("m1");
+      var e = document.getElementById("m2");
+      var f = document.getElementById("m3");
+        if (c.style.display === "none") {
+            a.style.display = "none";
+            b.style.display = "none";
+            c.style.display = "none";
+            d.style.display = "none";
+            e.style.display = "block";
+            f.style.display = "none";
+
+          } else {
+            e.style.display = "none";
+          }
+
+    }
+
+    function displaym3() {
+      var a = document.getElementById("b1");
+      var b = document.getElementById("b2");
+      var c = document.getElementById("b3");
+      var d = document.getElementById("m1");
+      var e = document.getElementById("m2");
+      var f = document.getElementById("m3");
+        if (c.style.display === "none") {
+            a.style.display = "none";
+            b.style.display = "none";
+            c.style.display = "none";
+            d.style.display = "none";
+            e.style.display = "none";
+            f.style.display = "block";
+
+          } else {
+            f.style.display = "none";
+          }
+    }
+
+  </script>
+  
+
+  <!--
+  <section>
+
+  <img src = "">
+  <video src = "https://www.instagram.com/reel/CxIucqpLH0b/?utm_source=ig_web_copy_link" alt = ""></video>--> <!--video?-->
+<!--
+  <img src = "">--> <!--comments/reactions-->
+  <!--
+  </section>
+  <div class = "container">
+    <div class = "product">
+      <div class = "gallery">
+        <img src = "theSwamp.jpg">
+        <div class = "details">
+          <h1></h1>--> <!-- use javascrpt to get title-->
+  <!--
+          <h2></h2> --><!-- price-->
+    <!--      <p></p>--> <!-- use javascrpt to get blurb-->
+     <!--     <div class = "options"> 
+            
+          </div>
+            
+      </div>
+    </div>  
+  </div>
+-->
+
+  
+  </body>
+<footer></footer>
+
+

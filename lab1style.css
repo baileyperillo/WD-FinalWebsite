@@ -1,0 +1,35 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+    h1 { /*color: White;*/
+        text-align: center;
+        
+    }
+    h4 { color: #76B953;
+       }
+     /* body { background-color: #AD8A73;
+background-image: https://www.freepik.com/free-photo/maple-leaf-border-background-orange-watercolor-autumn-season_17597748.htm
+    }*/
+    table, th, td { 
+   border: 2px solid black; 
+    } 
+    
+    table {
+      max-height: 100px;   
+    }
+    #p {
+      color: #76B953;
+    }
+    #c {
+      color: #C23C45;
+    }
+    caption{
+      color: #C23C45;
+    }
+  #drink {
+    width: 30%;
+    height: 30%;
+  }
+  
